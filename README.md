@@ -3,8 +3,11 @@
 # Multi-Objective Linear Ensembles for Robust and Sparse Training of Few-Bit Neural Networks
 
 This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.txt).
 
+The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the
+paper [Multi-Objective Linear Ensembles for Robust and Sparse Training of Few-Bit Neural Networks](https://doi.org/10.1287/ijoc.2023.0281)
+by Bernardelli et al.
 
 ## Cite
 
@@ -59,29 +62,29 @@ Figure 1 compares
 * the percentages of non-zero weights of the three trained models (right).
 The data tested are images of 4s and 9s of the MNIST dataset.
 
-![Figure 1](results/Figure-1.pdf)
+[Figure 1](results/Figure-1.pdf)
 
 Figure 2 compares the results of our BeMi ensemble with the four other methods of the literature on the whole MNIST dataset.
 
-![Figure 2](results/Figure-2.pdf)
+[Figure 2](results/Figure-2.pdf)
 
 Figure 3 compares
 * the test accuracy on the whole MNIST dataset (left);
 * the test accuracy on the whole Fashion-MNIST dataset (right).
 
-![Figure 3](results/Figure-3.pdf)
+[Figure 3](results/Figure-3.pdf)
 
 Figure 4 compares the accuracy of different INNs by varying the set of the weights. The data tested are images of 4s and 9s of the MNIST dataset.
 
-![Figure 4](results/Figure-4.pdf)
+[Figure 4](results/Figure-4.pdf)
 
 Figure 5 depicts a confusion matrix for the accuracy of BNNs trained on 40 images of the MNIST dataset. 
 
-![Figure 5](results/Figure-5.pdf)
+[Figure 5](results/Figure-5.pdf)
 
 Figure 6 replicates the results shown in Figure 1 but with images of 1s and 8s of the MNIST dataset.
 
-![Figure 6](results/Figure-6.pdf)
+[Figure 6](results/Figure-6.pdf)
 
 ## Replicating
 
@@ -99,9 +102,8 @@ from keras.datasets import mnist
 ```
 to
 ```
-from keras.datasets import mnist
+from keras.datasets import fashion_mnist
 ```
-
 
 ## Data
 
