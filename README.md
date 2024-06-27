@@ -36,7 +36,8 @@ The goal of this script is to train neural networks with integer weights with MI
 
 There is only one python script that can be executed.
 
-The packages needed for the code are the following: `gurobipy`, `time`, `keras.dataset`, `numpy`. The PARAMETERS (starting from line 382) can be modified accordingly to the experiments.
+The packages needed for the code are the following: `gurobipy`, `time`, `keras.dataset`, `numpy`. 
+The PARAMETERS (starting from line 382) can be modified accordingly to the experiments.
 
 For every value in the list `different_p`, the file produces 3*nm* + 1 csv files
 where *n* is the number of instances, namely `instances`, and *m* is the number of different numbers of
